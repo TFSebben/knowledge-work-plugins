@@ -60,3 +60,29 @@ No preview, no approval — owner doesn't know what was written.
 > "Look right? I'll save it once you confirm."
 
 Show the block, wait for approval, then write.
+
+---
+
+## Gotcha: Pitching the platform instead of the capability
+
+**Why it matters:** Owners already know what HubSpot, QuickBooks, Gmail, and Calendar do. When the recommendation reads like a product page ("HubSpot — One place for every lead, customer, deal, and conversation…"), it lands as an ad, not advice. The owner tunes out exactly when we need their attention.
+
+### ✗ Bad
+
+> "1. HubSpot (CRM) — One place for every lead, customer, deal, and conversation. Once it's in, I can prioritize who to call today, draft follow-ups, log notes from your inbox, and spot deals going stale.
+>
+> 2. Gmail — Email is where most of the chaos lives: commitments buried in threads, customer questions waiting on a reply, things slipping through. Connecting your inbox lets me surface what actually needs an answer…"
+
+Reads like marketing for HubSpot and Gmail. The owner is being sold to.
+
+### ✓ Good
+
+> "For customer follow-up, the two pieces I'd want are a CRM and your inbox.
+>
+> Are you on HubSpot today, or something else?"
+>
+> *(Owner: "Pipedrive.")*
+>
+> "Got it — we don't have a Pipedrive connector yet. If you stayed on Pipedrive, you'd still get cash-flow and calendar work, but I wouldn't be able to score leads or draft follow-ups from inside Claude. If you'd be open to trying HubSpot's free tier, here's what'd unlock: top-5 call list every morning, drafted follow-ups after every meeting, stale-deal alerts. Up to you — want to try it, or skip CRM for now?"
+
+States the function, checks what the owner uses, gives a clear gain/loss in plain English, leaves the decision with the owner. If the owner asks "what does HubSpot actually do?" — that's an explicit invitation; answer it directly.

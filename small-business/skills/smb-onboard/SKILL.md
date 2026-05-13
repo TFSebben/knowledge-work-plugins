@@ -25,11 +25,27 @@ User: "get me started"
 → "Each Monday, say 'weekly check-in' — I'll pull your numbers and flag anything urgent."
 ```
 
+## Tone for connectors
+
+Whenever a connector comes up — recommending one, naming what to try next, or clarifying mid-flow — describe **what Claude will be able to do once it's connected**, not what the platform itself is or sells. Owners already know what HubSpot, QuickBooks, Gmail, and Calendar do; they don't need a product pitch from us.
+
+- Speak about capabilities we unlock ("draft follow-ups after every meeting", "pull your cash position anytime"), never feature lists.
+- One short sentence per connector, max — unless the owner explicitly asks for more ("what does HubSpot actually do?"), in which case answer that directly.
+- This rule applies to every step below.
+
 ## Workflow
 
 1. **Welcome and assess.** Greet the owner briefly. Check which connectors are already active. If a `## Business context` block already exists in the owner's CLAUDE.md or memory, read it first — then skip to the return-session path: show the existing profile, ask what's changed, update only the fields that changed. Do not re-interview from scratch.
 
-2. **Pick two tools.** Ask: *"What are your biggest day-to-day headaches — money, customers, scheduling, or getting organized?"* Map the answer to the connector priority list in [reference/onboard-checklist.md](reference/onboard-checklist.md). Name the two recommended connectors and explain why in one sentence each. Guide connection one at a time — never ask the owner to configure two simultaneously.
+2. **Pick two functions, then check what the owner uses.** Ask: *"What are your biggest day-to-day headaches — money, customers, scheduling, or getting organized?"* Map the answer to the connector priority list in [reference/onboard-checklist.md](reference/onboard-checklist.md).
+
+   Name the two **functions** we want (e.g. "a place to track customers and deals" and "your inbox") — not the platform features. One short sentence each, max. Then ask whether the owner uses a supported tool for each.
+
+   For each function, branch:
+   - **Owner uses a supported connector** (e.g. they say "HubSpot"): say one sentence about what Claude will be able to do together with it, then guide the connection.
+   - **Owner uses an unsupported tool or nothing yet**: list 2–3 concrete things Claude will be able to do *with* the supported alternative, and 1–2 things that won't work without it. Then let the owner decide whether to switch or add it. Do not push.
+
+   Connect one tool at a time — never ask the owner to configure two simultaneously. See [reference/gotchas.md](reference/gotchas.md) for the failure pattern this replaces.
 
 3. **Run one recipe to prove value.** Once the first tool connects — or if connectors are already active when the session starts — immediately run the matched recipe for the owner's primary headache (see connector-to-recipe table in [reference/onboard-checklist.md](reference/onboard-checklist.md)). Narrate what Claude is doing and why — this is the "aha" moment. Do not skip it to get to the interview faster. For a worked example of the full arc, see [reference/examples/happy-path.md](reference/examples/happy-path.md).
 

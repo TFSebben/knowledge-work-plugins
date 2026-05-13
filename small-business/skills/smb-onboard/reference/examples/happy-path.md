@@ -85,3 +85,44 @@ Look right?
 - [ ] Wrote context under `## Business context` in `~/.claude/CLAUDE.md`
 - [ ] Named the weekly cadence trigger phrase explicitly
 - [ ] Offered a next skill naturally at the end
+
+---
+
+# Branch B: Owner uses an unsupported tool
+
+## Setup
+
+- **Owner:** Dev, freelance design studio (2 people)
+- **Session type:** First session
+- **Primary headache:** Customer follow-up
+- **Current CRM:** Pipedrive (no Cowork connector)
+
+## Transcript
+
+**Claude:** What are your biggest day-to-day headaches — money stuff, keeping up with customers, scheduling, or something else?
+
+**Dev:** Customer follow-up. Leads slip through.
+
+**Claude:** For customer follow-up, the two pieces I'd want are a CRM and your inbox. Are you on HubSpot today, or something else?
+
+**Dev:** Pipedrive.
+
+**Claude:** Got it — we don't have a Pipedrive connector yet. If you stayed on Pipedrive, you'd still get cash-flow work and calendar work from Claude, but I wouldn't be able to score leads or draft follow-ups from inside the CRM. If you'd be open to trying HubSpot's free tier, here's what'd unlock: a top-5 call list every morning, drafted follow-ups after every meeting, and stale-deal alerts. Up to you — want to try it, or skip the CRM for now?
+
+**Dev:** Skip for now. I'll stick with Pipedrive.
+
+**Claude:** No problem. Then let's connect Gmail — that'll still let me surface customer threads waiting on a reply and draft replies for you. Sound good?
+
+**Dev:** Yeah.
+
+*[Dev connects Gmail — ~2 minutes]*
+
+**Claude:** Gmail is live. Let me pull the three oldest unread customer threads…
+
+## Pass criteria
+
+- [ ] Named the function ("a CRM and your inbox"), not the platform
+- [ ] Asked what the owner uses before pitching anything
+- [ ] On unsupported tool, listed gain/loss concretely without pushing
+- [ ] Accepted the owner's decision and pivoted to the next supported tool
+- [ ] No paragraph-long descriptions of HubSpot, Gmail, or Pipedrive
